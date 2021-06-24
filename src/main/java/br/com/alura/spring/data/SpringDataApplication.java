@@ -25,7 +25,7 @@ public class SpringDataApplication implements CommandLineRunner {
 		this.cargoService = cargoService;
 		this.funcionarioService = funcionarioService;
 		this.unidadeTrabalhoService = unidadeTrabalhoService;
-
+		
 	}
 
 	public static void main(String[] args) {

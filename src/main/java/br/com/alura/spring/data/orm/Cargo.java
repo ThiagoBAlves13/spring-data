@@ -1,6 +1,6 @@
 package br.com.alura.spring.data.orm;
 
-
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,7 +26,6 @@ public class Cargo {
 	public void setFuncionario(List<Funcionario> funcionario) {
 		this.funcionario = funcionario;
 	}
-
 	public Integer getId() {
 		return id;
 	}
@@ -39,7 +38,6 @@ public class Cargo {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-
 	@Override
 	public String toString() {
 		return "Cargo [id=" + id + ", descricao=" + descricao + "]";
