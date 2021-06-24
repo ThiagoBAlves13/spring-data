@@ -19,7 +19,7 @@ public class Cargo {
 	private String descricao;
 	@OneToMany
 	private List<Funcionario> funcionario;
-	
+		
 	public List<Funcionario> getFuncionario() {
 		return funcionario;
 	}

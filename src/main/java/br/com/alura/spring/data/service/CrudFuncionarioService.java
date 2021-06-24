@@ -91,9 +91,8 @@ public class CrudFuncionarioService {
 	}
 
 	private void visualizar() {
-		Iterable<Cargo> funcionarios = cargoRespository.findAll();
+		Iterable<Funcionario> funcionarios = funcionarioRepository.findAll();
 		funcionarios.forEach(funcionario -> System.out.println(funcionario));
-
 	}
 
 	private void atualizar(Scanner scanner) {
