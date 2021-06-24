@@ -53,8 +53,11 @@ public class CrudUnidadeTrabalhoService {
 
 		System.out.println("Descricao da Unidade de trabalho");
 		String descricao = scanner.next();
+		System.out.println("Endereco da Unidade de trabalho");
+		String endereco = scanner.next();
 		UnidadeTrabalho unidadeTrabalho = new UnidadeTrabalho();
 		unidadeTrabalho.setDescricao(descricao);
+		unidadeTrabalho.setEndereco(endereco);
 		unidadeTrabalhoRespository.save(unidadeTrabalho);
 		System.out.println("Salvo");
 	}
@@ -65,9 +68,12 @@ public class CrudUnidadeTrabalhoService {
 		int id = scanner.nextInt();
 		System.out.println("Descricao da Unidade de trabalho");
 		String descricao = scanner.next();
+		System.out.println("Endereco da Unidade de trabalho");
+		String endereco = scanner.next();
 		UnidadeTrabalho unidadeTrabalho = new UnidadeTrabalho();
 		unidadeTrabalho.setId(id);
 		unidadeTrabalho.setDescricao(descricao);
+		unidadeTrabalho.setEndereco(endereco);
 		unidadeTrabalhoRespository.save(unidadeTrabalho);
 		System.out.println("Atualizado");
 	}
