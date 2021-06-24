@@ -2,6 +2,7 @@ package br.com.alura.spring.data;
 
 import java.util.Scanner;
 
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,6 +25,7 @@ public class SpringDataApplication implements CommandLineRunner {
 		this.cargoService = cargoService;
 		this.funcionarioService = funcionarioService;
 		this.unidadeTrabalhoService = unidadeTrabalhoService;
+
 	}
 
 	public static void main(String[] args) {
