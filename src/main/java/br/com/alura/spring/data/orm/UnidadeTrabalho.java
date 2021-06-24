@@ -49,5 +49,4 @@ public class UnidadeTrabalho {
 	public String toString() {
 		return "UnidadeTrabalho [id=" + id + ", descricao=" + descricao + ", endereco=" + endereco + "]";
 	}
-
 }
