@@ -16,6 +16,7 @@ import br.com.alura.spring.data.orm.FuncionarioProjecao;
 @Repository
 public interface FuncionarioRepository extends PagingAndSortingRepository<Funcionario, Integer>, JpaSpecificationExecutor<Funcionario> {
 
+
 	List<Funcionario> findByNome(String nome);
 
 	// List<Funcionario>findByNomeAndSalarioGreaterThanAndDataContratacao(String
