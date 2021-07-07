@@ -94,6 +94,7 @@ public class CrudFuncionarioService {
 		System.out.println("Deletado");
 	}
 
+
 	private void visualizar(Scanner scanner) {
 		System.out.println("Qual página deseja visualizar:");
 		Integer page = scanner.nextInt();
@@ -104,6 +105,7 @@ public class CrudFuncionarioService {
 		System.out.println(funcionarios);
 		System.out.println("Página atual " + funcionarios.getNumber());
 		System.out.println("Total de elementos " + funcionarios.getTotalElements());
+
 		funcionarios.forEach(funcionario -> System.out.println(funcionario));
 	}
 
